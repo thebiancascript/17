@@ -34,10 +34,12 @@ color: #8b1e3f; /* vernelho para destaque */
 }
 
 .invite-section {
-padding: 20px;
+padding: 10px;
 display: flex;
-justify-content: center;
+flex-direction: column; /* muda o flex para empilhar elementos verticalmente */
+align-items: center;    /* centraliza horizontalmente */
 }
+
 
 .invite-card {
 background: #2b0b12;
